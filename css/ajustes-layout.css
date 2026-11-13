@@ -1,0 +1,15 @@
+/* Layout amplo com barra lateral restaurada */
+.courses-layout{display:grid!important;grid-template-columns:236px minmax(0,1fr)!important;gap:24px!important;align-items:start;max-width:1180px!important;margin:0 auto}
+.courses-content{min-width:0;width:100%!important;max-width:none!important}
+.courses-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:22px}
+.courses-sidebar{position:sticky;top:85px;padding:20px;background:#091e40;border:1px solid #164c8c;border-radius:18px}
+.sidebar-player{text-align:center;display:block;padding-bottom:25px;border-bottom:1px solid #1d477d}
+.sidebar-avatar{display:block;width:106px;height:106px;object-fit:cover;border:3px solid #2563eb;border-radius:17px;margin:0 auto 18px;background:#173d91}
+.sidebar-player h2{font-size:17px;margin:0 0 10px}.sidebar-player p{margin:0 0 18px;color:#cbd9f1}
+.sidebar-progress{height:9px;background:#294e80;border-radius:12px;margin-bottom:12px}.sidebar-progress div{width:0;height:100%}
+.sidebar-player small{color:#cbd9f1}.sidebar-menu{display:flex;flex-direction:column;gap:9px;margin-top:20px}
+.sidebar-menu a{display:block;padding:14px 12px;border-radius:9px;color:#e5edff;text-decoration:none;font-weight:700;font-size:13px}
+.sidebar-menu a.selected,.sidebar-menu a:hover{background:linear-gradient(120deg,#087fe5,#1d56bc);color:white}
+.courses-heading{width:100%}.world-card{width:100%;min-width:0}
+@media(max-width:900px){.courses-layout{grid-template-columns:1fr!important}.courses-sidebar{position:static}.courses-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:620px){.courses-grid{grid-template-columns:1fr!important}}

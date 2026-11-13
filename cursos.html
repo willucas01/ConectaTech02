@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cursos | ConectaTech</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Press+Start+2P&amp;display=swap" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet"/>
+<link href="css/cursos.css" rel="stylesheet"/>
+<style>.courses-filters,.menu-toggle,.filter-btn,.courses-search,.search-box{display:none!important}</style><link href="css/ajustes-layout.css" rel="stylesheet"/><link href="css/personalizacao.css" rel="stylesheet"/></head>
+<body>
+<!-- CABEÇALHO -->
+<header class="header">
+<nav class="navbar container">
+<a class="logo" href="index.html">
+<span class="logo-icon">&lt;/&gt;</span>
+                Conecta<span>Tech</span>
+</a>
+<button aria-expanded="false" aria-label="Abrir menu" class="menu-toggle" id="menu-toggle" type="button">
+                ☰
+            </button>
+<ul class="nav-links" id="nav-links">
+<li>
+<a href="index.html">Início</a>
+</li>
+<li>
+<a aria-current="page" class="active" href="cursos.html">Cursos</a>
+</li>
+</ul>
+<a class="nav-cta" href="cursos.html">
+                Começar agora <span>→</span>
+</a>
+</nav>
+</header>
+<main class="courses-page">
+<!-- APRESENTAÇÃO -->
+<section class="courses-hero">
+<div class="container">
+<span class="courses-eyebrow">
+                    🎮 ESCOLHA SUA AVENTURA
+                </span>
+<h1>
+                    Trilhas de <span>Aprendizagem</span>
+</h1>
+<p>
+                    Explore novos mundos, complete desafios e
+                    desbloqueie habilidades em programação.
+                </p>
+</div>
+</section>
+<div class="container courses-layout"><aside class="courses-sidebar"><nav aria-label="Navegação dos cursos" class="sidebar-menu"><a class="selected" href="cursos.html">🎮 Meus cursos</a></nav></aside>
+<!-- PAINEL DO JOGADOR -->
+<!-- CATÁLOGO DE CURSOS -->
+<section class="courses-content"><div class="customize-banner"><img alt="Personagem pixel art" src="assets/images/avatares/programador.png"/><div><strong>🎮 Personalize seu personagem</strong><p>Escolha um dos 8 avatares e conheça os títulos Novato, Avançado e Expert.</p></div><a href="personagem.html">Escolher personagem →</a></div>
+<div class="courses-heading">
+<div>
+<span class="section-kicker">
+                            SEUS PRÓXIMOS DESAFIOS
+                        </span>
+<h2>Explore os mundos</h2>
+<p>
+                            Comece pelo HTML e avance na sua jornada.
+                        </p>
+</div>
+<span class="courses-count" id="courses-count">
+                        4 cursos
+                    </span>
+</div>
+<!-- FILTROS -->
+<div aria-label="Filtrar cursos" class="courses-filters">
+<button aria-pressed="true" class="filter-btn active" data-filter="todos" type="button">
+                        Todos
+                    </button>
+<button aria-pressed="false" class="filter-btn" data-filter="iniciante" type="button">
+                        Iniciante
+                    </button>
+<button aria-pressed="false" class="filter-btn" data-filter="intermediario" type="button">
+                        Intermediário
+                    </button>
+<button aria-pressed="false" class="filter-btn" data-filter="avancado" type="button">
+                        Avançado
+                    </button>
+</div>
+<!-- MUNDOS -->
+<div class="courses-grid">
+<!-- MUNDO 01: HTML -->
+<article class="world-card" data-level="iniciante">
+<div class="world-banner html-world">
+<span class="world-number">
+                                MUNDO 01
+                            </span>
+<img alt="Mundo HTML5" class="world-image" src="assets/images/mundo-html.png"/>
+<img alt="Logo HTML5" class="language-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
+<span class="world-stars">
+                                ✦ ✦ ✦
+                            </span>
+</div>
+<div class="world-body">
+<span class="world-difficulty">
+                                INICIANTE
+                            </span>
+<h3>HTML5</h3>
+<p>
+                                Aprenda a construir a estrutura
+                                das páginas web.
+                            </p>
+<div class="world-meta">
+<span>📖 4 módulos</span>
+<span>⚡ +100 XP</span>
+</div>
+<div class="world-progress-track">
+<div class="world-progress-fill" style="width: 0%"></div>
+</div>
+<small>Pronto para começar</small>
+<a class="world-button" href="trilha-html.html">
+                                Começar aventura →
+                            </a>
+</div>
+</article>
+<!-- MUNDO 02: CSS -->
+<article class="world-card" data-level="iniciante">
+<div class="world-banner css-world">
+<span class="world-number">
+                                MUNDO 02
+                            </span>
+<img alt="Mundo CSS3" class="world-image" src="assets/images/mundo-css.png"/>
+<img alt="Logo CSS3" class="language-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
+<span class="world-stars">
+                                ✦ ✦ ✦
+                            </span>
+</div>
+<div class="world-body">
+<span class="world-difficulty">
+                                INICIANTE
+                            </span>
+<h3>CSS3</h3>
+<p>
+                                Transforme páginas simples em
+                                interfaces incríveis.
+                            </p>
+<div class="world-meta">
+<span>📖 4 módulos</span>
+<span>⚡ +150 XP</span>
+</div>
+<div class="world-progress-track">
+<div class="world-progress-fill" style="width: 0%"></div>
+</div>
+<small>Pronto para começar</small>
+<a class="world-button" href="trilha-css.html">
+                                Começar aventura →
+                            </a>
+</div>
+</article>
+<!-- MUNDO 03: JAVASCRIPT -->
+<article class="world-card locked" data-level="intermediario">
+<div class="world-banner js-world">
+<span class="world-number">
+                                MUNDO 03
+                            </span>
+<img alt="Mundo JavaScript" class="world-image" src="assets/images/mundo-javascript.png"/>
+<img alt="Logo JavaScript" class="language-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
+<span class="world-stars">
+                                ✦ ✦ ✦
+                            </span>
+</div>
+<div class="world-body">
+<span class="world-difficulty">
+                                INTERMEDIÁRIO
+                            </span>
+<h3>JavaScript</h3>
+<p>
+                                Adicione interatividade e inteligência
+                                às páginas.
+                            </p>
+<div class="world-meta">
+<span>📖 5 módulos</span>
+<span>⚡ +200 XP</span>
+</div>
+<div class="world-progress-track">
+<div class="world-progress-fill" style="width: 0%"></div>
+</div>
+<small>Pronto para começar</small>
+<a class="world-button" href="trilha-js.html">Começar aventura →</a>
+</div>
+</article>
+<!-- MUNDO 04: PYTHON -->
+<article class="world-card locked" data-level="avancado">
+<div class="world-banner python-world">
+<span class="world-number">
+                                MUNDO 04
+                            </span>
+<img alt="Mundo Python" class="world-image" src="assets/images/mundo-python.png"/>
+<img alt="Logo Python" class="language-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"/>
+<span class="world-stars">
+                                ✦ ✦ ✦
+                            </span>
+</div>
+<div class="world-body">
+<span class="world-difficulty">
+                                AVANÇADO
+                            </span>
+<h3>Python</h3>
+<p>
+                                Explore lógica, algoritmos e automação.
+                            </p>
+<div class="world-meta">
+<span>📖 5 módulos</span>
+<span>⚡ +250 XP</span>
+</div>
+<div class="world-progress-track">
+<div class="world-progress-fill" style="width: 0%"></div>
+</div>
+<small>Pronto para começar</small>
+<a class="world-button" href="trilha-python.html">Começar aventura →</a>
+</div>
+</article>
+</div>
+<p aria-live="polite" class="courses-message" id="courses-message" role="status">
+</p>
+</section>
+</div>
+</main>
+<!-- RODAPÉ -->
+<footer class="courses-footer">
+<div class="container">
+<p>
+                © 2026 ConectaTech — Aprenda. Jogue. Evolua.
+            </p>
+</div>
+</footer>
+<!-- JANELA DE ESCOLHA DE PERSONAGEM -->
+</body>
+</html>
